@@ -1,0 +1,682 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    border: 1px solid red;
+} */
+.home{
+    padding-left: 330px;
+    padding-top: 350px;
+    font-size: 35px;
+    line-height: 1.6;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    height: 900px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+.icon{
+    letter-spacing: 15px;
+}
+.icon:hover{
+    color: #3390ff;
+}
+.header  {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    
+}
+.saidbar{
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(216, 216, 216);
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.saidbar:hover{
+    color: white;
+    background: rgb(26, 255, 0);
+    transition: 01s;
+    transform: rotate(360deg);
+} 
+
+.about{
+    text-align: center;
+    height: 260px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    /* padding-bottom: 500px; */
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /* width: 40%; */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .Skill{
+    height: 260px;
+  }
+  .about-skill{
+    margin-left: 123px;
+    /* border: 1px solid black; */
+    width: 700px;
+    height: 340px;
+    font-family: Papyrus;
+    font-size: 20px;
+  }
+  .two-skill{
+    display: flex;
+  }
+  .degree{
+    margin-left: 723px;
+    height: 260px;
+    width: 1000px;
+    margin-right: 200px;
+  }
+  .skill{
+    text-align: center;
+  }
+  /*===== Html =====*/
+  .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+
+.bar .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.info span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: grey;
+    border-radius: 2px;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.html::before {
+    width: 90%;
+    background-color: blue;
+    transition: 0.5s;
+}
+
+/*===== css =====*/
+
+.bar {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+
+.bar .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.info span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: grey;
+    border-radius: 2px;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.css::before {
+    width: 80%;
+    background-color: blue;
+}
+
+/*===== script =====*/
+.bar {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+
+.bar .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.info span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: grey;
+    border-radius: 2px;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.script::before {
+    width: 60%;
+    background-color: blue;
+}
+
+/*===== photoshop =====*/
+
+.bar {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+
+.bar .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.info span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: grey;
+    border-radius: 2px;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.photoshop::before {
+    width: 55%;
+    background-color: blue;
+}
+
+/*===== premiere =====*/
+
+.bar {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+
+.bar .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.info span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: grey;
+    border-radius: 2px;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.primiere::before {
+    width: 40%;
+    background-color: blue;
+}
+
+.contact{
+    height: 600px;
+    margin-left: 123px;
+}
+.cont{
+    text-align: center;
+}
+.malumotlar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 35px;
+}
+.number{
+    height: 250px;
+    width: 400px;
+    font-family: verdana;
+    text-align: center;
+    border: 1px solid black;
+    padding: 35px;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.location{
+    height: 250px;
+    width: 400px;
+    font-family: verdana;
+    text-align: center;
+    border: 1px solid black;
+    padding: 35px;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.email{
+    height: 250px;
+    width: 400px;
+    font-family: verdana;
+    text-align: center;
+    border: 1px solid black;
+    padding: 35px;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+/* #form {
+    width: 600px;
+    height: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 4px;
+}
+#message input{
+    height: 100px;
+}
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+} */
+
+ input{
+    font-size: 20px;
+    border-radius: 3px;
+    outline: none;
+    border: 0.5px solid black;
+    padding: 9px;
+    font-family: Area;
+}
+.inputlar{
+    text-align: center;
+    border: 1px solid #111;
+    height: 600px;
+    width: 600px;
+    margin-left: 530px;
+    box-shadow: 0px 0px 18px 0px grey;
+    border: none;
+    transition: 0.5s;
+}
+.inputlar:hover{
+    box-shadow: 0px 0px 5px 0px grey;
+    border: none;
+    transition: 0.5s;
+} 
+.name-input{
+    width: 250px;
+} 
+.email-input{
+    width: 250px;
+} 
+.subject{
+    width: 500px;
+} 
+.area{
+    color: #111;
+    width: 490px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #111;
+    border-radius: 5px;
+    resize: none;
+}
+.tugma{
+    background-color: rgb(255, 0, 0);
+    padding: 15px 17px;
+    border-radius: 1px; 
+    width: 510px;
+    color: white;
+    transition: 0.5s;
+}
+.tugma:hover{
+    background-color:  rgb(255, 255, 255);
+    color: black;
+    transition: 0.5s;
+} 
+footer{
+    width: 100%;
+}
+.footer{
+    margin-top: 450px;
+    width: 100%;
+    height: 250px;
+    background: #000016;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 1526px) {
+
+    .home{
+        padding-left: 30px;
+        padding-top:350px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 1.5;
+        font-family: "Raleway", sans-serif;
+        width: 100%;
+        height: 613px;
+        background-image: url("bg.jpg");
+        background-size: cover;
+        background-position: right;
+    }
+    .me{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    .icon{
+        text-align: center;
+        letter-spacing: 7px;
+    }
+    .header{
+        display: none;
+    }
+
+    .about{
+        text-align: center;
+        height: 160px;
+    }
+    .img{
+        width: 300px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .card{
+        /* margin-left: 339px; */
+        /* width: 300px; */
+        text-align: center;
+        line-height: 1.1;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 302px;
+    }
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .Skill{
+        height: 640px;
+    }
+    .about-skill{
+        margin-left: 0px;
+        width: 700px;
+        height: 320px;
+        font-family: Papyrus;
+        font-size: 20px;
+    }
+    .two-skill{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .degree{
+        margin-left: 0px;
+        height: 260px;
+        width: 300px;
+        /*margin-right: 200px; */
+    
+    }
+    .contact{
+        height: 1280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    /* .cont{
+        margin-right: 111px;
+    } */
+    .malumotlar{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .number{
+        height: 250px;
+        width: 270px;
+        font-family: verdana;
+        text-align: center;
+        border: 1px solid black;
+        padding: 35px;
+        box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+        border: none;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    .location{
+        height: 250px;
+        width: 270px;
+        font-family: verdana;
+        text-align: center;
+        border: 1px solid black;
+        padding: 35px;
+        box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+        border: none;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    .email{
+        height: 250px;
+        width: 270px;
+        font-family: verdana;
+        text-align: center;
+        border: 1px solid black;
+        padding: 35px;
+        box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    input{
+        font-size: 20px;
+        border-radius: 3px;
+        outline: none;
+        border: 0.5px solid black;
+        padding: 9px;
+        font-family: Area;
+    }
+    .inputlar{
+        margin-left: 0px;
+        text-align: center;
+        border: 1px solid #111;
+        height: 640px;
+        width: 340px;
+        box-shadow: 0px 0px 18px 0px grey;
+        border: none;
+        transition: 0.5s;
+    }
+    .inputlar:hover{
+        box-shadow: 0px 0px 5px 0px grey;
+        border: none;
+        transition: 0.5s;
+    }
+    input{
+        width: 300px;
+    }
+    .name-input{
+        width: 300px;
+    } 
+    .email-input{
+        width: 300px;
+    }
+    .subject{
+        width: 300px;
+    }
+    .area{
+        color: #111;
+        width: 300px;
+        padding: 10px;
+        font-size: 17px;
+        font-weight: 400;
+        outline: none;
+        border: 1px solid #111;
+        border-radius: 5px;
+        resize: none;
+    }
+    .tugma{
+        background-color: rgb(255, 0, 0);
+        padding: 15px 17px;
+        border-radius: 1px;
+        width: 300px;
+        color: white;
+        transition: 0.5s;
+    }
+    .tugma:hover{
+        background-color:  rgb(255, 255, 255);
+        color: black;
+        transition: 0.5s;
+    }
+    footer {
+        border: 1px solid rgb(61, 255, 2);
+        width: 100%;
+    }
+    .footer{
+        /* margin-top: 1050px; */
+        /* position: relative; */
+        top: 600px;
+        width: 100%;
+        height: 250px;
+        background: #000016;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
